@@ -1,0 +1,15 @@
+body {
+  font-style: italic;
+}
+header {
+    background-color: #F1F1F1;
+    font-style:normal;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 10px;
+}
