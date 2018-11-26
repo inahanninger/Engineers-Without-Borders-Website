@@ -3,151 +3,119 @@
 <title>Engineers Without Borders Oxford super cool website</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href='css/bootstrap.css' rel='stylesheet'>
+<link href='css/bootstrap.min.css' rel='stylesheet'>
+<link href='css/bootstrap-theme.css' rel='stylesheet'>
+<link href='css/bootstrap-theme.min.css' rel='stylesheet'>
+<link href='css/stylesheet.css' rel='stylesheet'>
 <body>
 
 <!-- Navbar (sit on top) -->
-<div class="w3-top">
-  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
-    <a href="#home" class="w3-bar-item w3-button"><b>Engineers Without Borders</b> Oxford</a>
+<div class="Navbar">
+
+    <div class="row">
+      <div class="col-xs-6 col-md-6">
+        <a href="index.html" class= "btn btn-light"><b>Engineers Without Borders</b> Oxford</a>
+      </div>
     <!-- Float links to the right. Hide them on small screens -->
-    <div class="w3-right w3-hide-small">
-      <a href="#getinvolved" class="w3-bar-item w3-button">Get Involved</a>
-      <a href="#projects" class="w3-bar-item w3-button">Projects</a>
-      <a href="#team" class="w3-bar-item w3-button">Team</a>
+      <div class="col-md-6 text-right .d-none .d-sm-block">
+        <a href="Get_Involved.html" class="btn-light btn">Get Involved</a>
+        <a href="Projects.html" class="btn-light btn">Projects</a>
+        <a href="Team.html" class="btn-light btn">Team</a>
+      </div>
     </div>
-  </div>
+
 </div>
 
 <!-- Header -->
-<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
-  <img class="w3-image" src="Images/launch event.jpg" alt="Engineers" width="1500" height="800">
-  <div class="w3-display-middle w3-margin-top w3-center">
-    <img class="logo" src="Images/EWB_logo final.png" alt="EWB" width="170" height="200" align=center>
-    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>Engineers Without Borders</b></span> <span class="w3-hide-small w3-text-light-grey">Oxford</span></h1>
+<header style="max-width:1500px;" id="home">
+
+  <div class="bg-overlay"> <!-- bg-overlay refers to a class in stylesheet.css which has the launch event photo as a greyed out background banner -->
+      <div class="row text-center">
+      <img src="Images/EWB_logo_final.png" alt="EWB" width="170" height="200" align=center class="logo">
+      <br></br>
+      <h1><span><b>Engineers Without Borders</b></span>
+      <h2>Oxford</h2>
+    </div>
   </div>
 </header>
 
 <!-- Page content -->
-<div class="w3-content w3-padding" style="max-width:1564px">
+<div  style="max-width:1564px">
+  <div class='container'>
+    <p> <br>Welcome to the Oxford branch of Engineers Without Borders, an international development organisation that removes barriers to development through engineering. We aim to provide opportunities for members of the Oxford community to partake in research projects that tackle poverty using engineering. These projects span many different areas of engineering and we are always looking for new projects to run within the society. </br>
 
+Most importantly you do not need to be an engineering student to be part of EWBOx, we have many students across all subjects.
+<br>
+The best place to keep up to date with our current events (and to reach out if you're interested in joining in) is on our <a href="https://www.facebook.com/EWBOx/" >facebook page</a>.</br></p>
+</div>
   <!-- Project Section -->
-  <div class="w3-container w3-padding-32" id="projects">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Projects</h3>
-  </div>
 
-  <div class="w3-row-padding">
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Summer House</div>
-        <img src="/w3images/house5.jpg" alt="House" style="width:100%">
+
+  <div class="container" id="projects">
+    <h3 >Projects</h3>
+    <div class="row">
+      <div class="col-xs-4 col-md-2">
+        <img src="Images/Old Website/medical-engineers-without-borders.jpg" alt="Medical engineers" style="width:100%">
       </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Brick House</div>
-        <img src="/w3images/house2.jpg" alt="House" style="width:100%">
+      <div class="col-xs-4 col-md-2">
+        <img src="Images/Old Website/capacitive-deionisation.JPG" alt="Capacitive Deionisation" style="width:100%" class="img-rounded">
       </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Renovated</div>
-        <img src="/w3images/house3.jpg" alt="House" style="width:100%">
+      <div class="col-xs-4 col-md-2">
+        <img src="Images/Old Website/coding.jpg" alt="Coding" style="width:100%" class="img-rounded">
       </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Barn House</div>
-        <img src="/w3images/house4.jpg" alt="House" style="width:100%">
+      <div class=".d-none .d-sm-block col-md-2">
+        <img src="Images/Old Website/smarspo22.jpg" alt="App" style="width:100%">
       </div>
+      <div class=".d-none .d-sm-block col-md-2">
+        <img src="Images/Old Website/newbornpneumonia3.jpg" alt="Newborn pneumonia" style="width:100%">
+      </div>
+      <div class=".d-none .d-sm-block col-md-2">
+        <img src="Images/Old Website/fetalmonitoring2.jpg" alt="Fetal monitoring" style="width:100%">
+      </div>
+
     </div>
   </div>
 
-  <div class="w3-row-padding">
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Summer House</div>
-        <img src="/w3images/house2.jpg" alt="House" style="width:99%">
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Brick House</div>
-        <img src="/w3images/house5.jpg" alt="House" style="width:99%">
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Renovated</div>
-        <img src="/w3images/house4.jpg" alt="House" style="width:99%">
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Barn House</div>
-        <img src="/w3images/house3.jpg" alt="House" style="width:99%">
-      </div>
-    </div>
-  </div>
 
   <!-- About Section -->
-  <div class="w3-container w3-padding-32" id="about">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-      occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-      laboris nisi ut aliquip ex ea commodo consequat.
-    </p>
+  <div class="container" id="about">
+    <h3>Get Involved</h3>
+    <div class="row">
+      <div class="col-xs-4 col-md-4">
+        <img src="Images/getinvolved.JPG" alt="get involved" class="img-responsive img-rounded">
+      </div>
+      <div class="col-xs-8 col-md-8">
+        <p>Join the Engineers Without Borders community on <a href="https://www.facebook.com/EWBOx/">Facebook</a>, <a href="https://twitter.com/OxEWB">Twitter</a> and <a href="https://www.linkedin.com/company/engineers-without-borders---oxford-ewbox-/about/">LinkedIn</a>
+          <ul>
+            <li>Join a project</li>
+            <li>Start a project</li>
+            <li>Join the committee!</li>
+          </ul>
+        </p>
+      </div>
   </div>
 
-  <div class="w3-row-padding w3-grayscale">
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="/w3images/team2.jpg" alt="John" style="width:100%">
-      <h3>John Doe</h3>
-      <p class="w3-opacity">CEO & Founder</p>
-      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
-      <h3>Jane Doe</h3>
-      <p class="w3-opacity">Architect</p>
-      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="/w3images/team3.jpg" alt="Mike" style="width:100%">
-      <h3>Mike Ross</h3>
-      <p class="w3-opacity">Architect</p>
-      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="/w3images/team4.jpg" alt="Dan" style="width:100%">
-      <h3>Dan Star</h3>
-      <p class="w3-opacity">Architect</p>
-      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
-    </div>
-  </div>
+
 
   <!-- Contact Section -->
-  <div class="w3-container w3-padding-32" id="contact">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
+  <div class="container" id="contact">
+    <h3 >Contact</h3>
     <p>Lets get in touch and talk about your next project.</p>
     <form action="/action_page.php" target="_blank">
-      <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-      <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
-      <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
-      <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
-      <button class="w3-button w3-black w3-section" type="submit">
-        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+      <input type="text" placeholder="Name" required name="Name">
+      <input type="text" placeholder="Email" required name="Email">
+      <input type="text" placeholder="Subject" required name="Subject">
+      <input  type="text" placeholder="Comment" required name="Comment">
+      <button class="btn btn-primary" type="submit">
+        <i ></i> Send Message
       </button>
     </form>
   </div>
 
 <!-- Image of location/map -->
-<div class="w3-container">
-  <img src="/w3images/map.jpg" class="w3-image" style="width:100%">
+<div class="container">
+  <img src="/w3images/map.jpg"  style="width:100%">
 </div>
 
 <!-- End page content -->
@@ -155,8 +123,15 @@
 
 
 <!-- Footer -->
-<footer class="w3-center w3-black w3-padding-16">
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+<footer class="container">
+<div class="row">
+  <div class="col-xs-2 col-md-2 vcenter">
+    <img src="Images/EWB_logo_final.png" alt="EWB" style="width:50%" class="img-responsive">
+  </div>
+  <div class="col-xs-6 col-md-6 vcenter">
+    <span>Engineers without Borders Oxford</span>
+  </div>
+</div>
 </footer>
 
 </body>

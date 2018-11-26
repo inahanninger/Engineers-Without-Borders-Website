@@ -5,17 +5,32 @@
 
 
 body {
-  font-style: italic;
+  /* font-style: italic; */
 }
-header {
-    background-color: #F1F1F1;
-    font-style:normal;
-    text-align: center;
-    padding: 20px;
+
+.bg-overlay {
+    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2)), url("../Images/launch_event.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 450px;
+    padding-top: 60px;
 }
+
+.logo {
+  background: rgba(255,255,255,.5);
+}
+
 
 .footer {
     background-color: #F1F1F1;
     text-align: center;
     padding: 10px;
+}
+
+.vcenter{
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
 }
