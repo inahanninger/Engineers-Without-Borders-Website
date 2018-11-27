@@ -11,6 +11,8 @@
 <link href='css/bootstrap-theme.min.css' rel='stylesheet'>
 <link href='css/stylesheet.css' rel='stylesheet'>
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<script type="text/javascript" src="myscripts.js"></script>
+
 </head>
 
 <body class="pagefont">
@@ -24,7 +26,7 @@
       </div>
     <!-- Float links to the right. Hide them on small screens -->
       <div class="col-md-6 text-right .d-none .d-sm-block">
-        <a href="Get_Involved.html" class="btn-light btn">Get Involved</a>
+        <a href="Get_Involved.html" class="btn-light btn"><u><b>Get Involved</b></u></a>
         <a href="Projects.html" class="btn-light btn">Projects</a>
         <a href="Team.html" class="btn-light btn">Team</a>
       </div>
@@ -59,14 +61,41 @@
       <div class="row text-center">
       <br></br>
       <h2>Register your interest</h2>
-      <a class="ct-btn-scroll ct-js-btn-scroll" href="#section2">
-        <img alt="Arrow Down Icon" src="https://www.solodev.com/assets/anchor/arrow-down.png"></a>
-    </div>
-  </div>
+<a href="#section1"> <img src="https://www.solodev.com/assets/anchor/arrow-down.png"></a>
+
+
+      </div>
+</div>
 
   <div class="info">
-    <p>form</p>
-  </div>
+
+    <div class="container">
+      <form action="action_page.php">
+
+        <label id="section1" for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your Name...">
+
+        <label for="email">Email address:</label>
+        <input type="email" class="form-control" id="email" placeholder="Your Email...">
+
+<p></p>
+<p> I would like to: </p>
+
+        <label class="checkbox-inline"><input type="checkbox" value="">Join a project</label>
+        <label class="checkbox-inline"><input type="checkbox" value="">Start a project</label>
+        <label class="checkbox-inline"><input type="checkbox" value="">Join the committee</label>
+</div>
+<div class="container">
+  <p></p>
+        <label for="subject">Leave a message</label>
+        <textarea id="subject" name="Subject" placeholder="Write something..." style="height:150px"></textarea>
+
+<div style="text-align:center;">
+        <input type="submit" value="Submit">
+      </div>
+
+</form>
+    </div>
 
 
 <!-- Footer -->
