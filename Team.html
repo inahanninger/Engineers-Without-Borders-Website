@@ -6,12 +6,10 @@ body {
   font-family: helvetica;
 }
 img{
-    margin: 40px 0px 0px 0px;
-    border: 7px solid white;
     border-radius: 20px;
   }
   small {
-        font-size: 50px;
+        font-size: 80px;
         color: blue;
         font-family; Arial;
     }
@@ -27,31 +25,33 @@ initial-scale=1.0">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <body>
 <!-- Navbar (sit on top) -->
-<div class="w3-top">
-  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
-    <a href="#home" class="w3-bar-item w3-button"><b>Engineers Without Borders</b> Oxford</a>
+<div class="Navbar">
+
+    <div class="row">
+      <div class="col-xs-6 col-md-6">
+        <a href="index.html" class= "btn btn-light"><b>Engineers Without Borders</b> Oxford</a>
+      </div>
     <!-- Float links to the right. Hide them on small screens -->
-    <div class="w3-right w3-hide-small">
-      <a href="#getinvolved" class="w3-bar-item w3-button">Get Involved</a>
-      <a href="#projects" class="w3-bar-item w3-button">Projects</a>
-      <a href="#team" class="w3-bar-item w3-button">Team</a>
+      <div class="col-md-6 text-right .d-none .d-sm-block">
+        <a href="Get_Involved.html" class="btn-light btn">Get Involved</a>
+        <a href="Projects.html" class="btn-light btn">Projects</a>
+        <a href="Team.html" class="btn-light btn">Team</a>
+      </div>
     </div>
-  </div>
+
 </div>
 <!-- team header-->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="Images/launch_event.jpg" alt="Engineers" width="1500" height="400">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <img class="logo" src="Images/EWB_logo_final.png" alt="EWB" width="170" height="200" align=center>
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>Who are we?</span> <span class="w3-hide-small w3-text-light-grey"></span></h1>
+  </div>
+</header>
+
+<!-- team members -->
 <div class="container">
 <div class='jumbotron'>
-
-  <img src="Images/launch_event.jpg" alt="Medical engineers" style="width:100%" height="500">
-
-  <form role='form'>
-    <label for="email">Contact the Team</label>
-    <input type="text" name="email" >
-    <button type="submit">Send</button>
-  </form>
-</div>
-<!-- team members -->
-  <div class='jumbotron' id="team">
     <h2><small>Team</small><br />Who are we?</h2>
 <div class="row">
 <div class="col-xs-4">
@@ -78,7 +78,6 @@ initial-scale=1.0">
     </div>
     <div class="col-xs-4">
     <div>
-
       <img src="Images/Old Website/alexmiller.jpg" alt="Medical engineers" style="width:40%">
       <p>Alex meets new members and helps in introducing them to new topics. He is a DPhil student at the Uiversity of Oxford</p>
       <small> alexmiller.ewb.com</small>
