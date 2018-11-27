@@ -8,6 +8,7 @@
 <link href='css/bootstrap-theme.css' rel='stylesheet'>
 <link href='css/bootstrap-theme.min.css' rel='stylesheet'>
 <link href='css/stylesheet.css' rel='stylesheet'>
+
 <body>
 
 <!-- Navbar (sit on top) -->
@@ -53,7 +54,7 @@ The best place to keep up to date with our current events (and to reach out if y
 
 
   <div class="container" id="projects">
-    <h3 >Projects</h3>
+    <h3><a href="Projects.html" class="text-muted">Projects</a></h3>
     <div class="row">
       <div class="col-xs-4 col-md-2">
         <img src="Images/Old Website/medical-engineers-without-borders.jpg" alt="Medical engineers" style="width:100%">
@@ -80,7 +81,7 @@ The best place to keep up to date with our current events (and to reach out if y
 
   <!-- About Section -->
   <div class="container" id="about">
-    <h3>Get Involved</h3>
+    <h3><a href="Get_Involved.html" class="text-muted">Get Involved</a></h3>
     <div class="row">
       <div class="col-xs-4 col-md-4">
         <img src="Images/getinvolved.JPG" alt="get involved" class="img-responsive img-rounded">
@@ -102,21 +103,21 @@ The best place to keep up to date with our current events (and to reach out if y
   <div class="container" id="contact">
     <h3 >Contact</h3>
     <p>Lets get in touch and talk about your next project.</p>
-    <form action="/action_page.php" target="_blank">
-      <input type="text" placeholder="Name" required name="Name">
-      <input type="text" placeholder="Email" required name="Email">
-      <input type="text" placeholder="Subject" required name="Subject">
-      <input  type="text" placeholder="Comment" required name="Comment">
-      <button class="btn btn-primary" type="submit">
-        <i ></i> Send Message
+
+      <form role="form" action="handler.php" method="post" id="contact_form">
+      <input type="text" placeholder="Name" required name="Name" id='name'>
+      <input type="email" placeholder="Email" required name="Email" id='email'>
+      <input type="text" placeholder="Subject" required name="Subject" id='subject'>
+      <input  type="text" placeholder="Comment" required name="Comment" id=message>
+
+      <button type="submit" class="btn btn-primary" onclick="validateForm()"  <i ></i> Send Message
       </button>
-    </form>
+      <div class="status"></div>
+  </form>
   </div>
 
-<!-- Image of location/map -->
-<div class="container">
-  <img src="/w3images/map.jpg"  style="width:100%">
-</div>
+
+
 
 <!-- End page content -->
 </div>
@@ -124,15 +125,15 @@ The best place to keep up to date with our current events (and to reach out if y
 
 <!-- Footer -->
 <footer class="container">
-<div class="row">
-  <div class="col-xs-2 col-md-2 vcenter">
-    <img src="Images/EWB_logo_final.png" alt="EWB" style="width:50%" class="img-responsive">
-  </div>
-  <div class="col-xs-6 col-md-6 vcenter">
-    <span>Engineers without Borders Oxford</span>
-  </div>
-</div>
+<!-- <div class="row"> -->
+  <!-- <div class="col-xs-2 col-md-2 vcenter"> -->
+    <img src="Images/email header smaller.png" alt="EWB" style="width:50%" class="img-responsive center-block">
+  <!-- </div> -->
+  <!-- <div class="col-xs-6 col-md-6 vcenter"> -->
+    <!-- <span>Engineers without Borders Oxford</span> -->
+  <!-- </div> -->
+<!-- </div> -->
 </footer>
-
+<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
