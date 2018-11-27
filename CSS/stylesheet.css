@@ -8,6 +8,15 @@ body {
   /* font-style: italic; */
 }
 
+.mona{
+    margin: 40px 0px 0px 0px;
+    border: 7px solid white;
+    border-radius: 20px;
+    max-width: 1500px;
+
+  }
+
+
 .bg-overlay {
     background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2)), url("../Images/launch_event.jpg");
     background-repeat: no-repeat;
@@ -63,7 +72,6 @@ body {
   background: #FFFAF0;
   color: #777;
   padding: 3em 20%;
-
 }
 
 .bright_titles {
@@ -117,7 +125,7 @@ input[type=submit]:hover {
   }
 
     /* Add a background color and some padding around the form */
-.container {
+.container2 {
     border-radius: 5px;
     padding-top: 4px;
     padding-right: 20px;
@@ -126,11 +134,33 @@ input[type=submit]:hover {
     max-width: 550px;
   }
 
+  .container {
+    background: #FFFAF0;
+    color: #777;
+    padding: 3em 20%;
+
+    }
+
 
 html {
     scroll-behavior: smooth;
   }
 
-
-
     /* Hanna's additions end */
+
+    .btn-facebook {
+	  background: #3B5998;
+	  border-radius: 0;
+	  color: #fff;
+	  border-width: 1px;
+	  border-style: solid;
+	  border-color: #263961;
+    align:right
+	}
+	.btn-facebook:link, .btn-facebook:visited {
+	  color: #fff;
+	}
+	.btn-facebook:active, .btn-facebook:hover {
+	  background: #263961;
+	  color: #fff;
+	}

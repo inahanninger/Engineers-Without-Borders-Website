@@ -55,6 +55,10 @@
   <p>If you have an idea for a project that you believe fits within Engineers Without Borders then we can help provide resources such as keen student helpers, money and equipment. We are always excited for new projects and if you would like to discuss in more detail please contact the president at president@ewbox.org</p>
   <p><b>3) Join the committee</b></p>
   <p>Elections for Engineers Without Borders Oxford’s executive committee take place each year towards the start of Trinity Term. If you are interested in running for the executive committee, don’t hesitate to contact the current committee members to find out more about what is involved.</p>
+
+  <a href="https://www.facebook.com/EWBOx/" title="Facebook" class="btn btn-facebook btn-lg"><i class="fa fa-facebook fa-fw"></i> Facebook</a>
+
+
 </div>
 
 <div class="parallax2">
@@ -69,29 +73,31 @@
 
   <div class="info">
 
-    <div class="container">
-      <form action="action_page.php">
+    <div class="container2">
+      <form role="form" action="mailto:president@ewb.org" method="GET" id="contact_form">
 
-        <label id="section1" for="name">Name:</label>
-        <input type="text" id="name" name="name" placeholder="Your Name...">
+        <!-- <label id="section1" for="name">Name:</label> -->
+        <!-- <input type="text" id="name" name="name" placeholder="Your Name..."> -->
 
-        <label for="email">Email address:</label>
-        <input type="email" class="form-control" id="email" placeholder="Your Email...">
+        <!-- <label for="email">Email address:</label> -->
+        <!-- <input type="email" class="form-control" id="email" placeholder="Your Email..."> -->
 
 <p></p>
 <p> I would like to: </p>
 
-        <label class="checkbox-inline"><input type="checkbox" value="">Join a project</label>
-        <label class="checkbox-inline"><input type="checkbox" value="">Start a project</label>
-        <label class="checkbox-inline"><input type="checkbox" value="">Join the committee</label>
+        <label class="checkbox-inline"><input type="checkbox" value="Join a project" name="subject">Join a project</label>
+        <label class="checkbox-inline"><input type="checkbox" value="Start a project"name="subject">Start a project</label>
+        <label class="checkbox-inline"><input type="checkbox" value="Join the committee" name="subject">Join the committee</label>
 </div>
-<div class="container">
+
+<div class="container2">
   <p></p>
         <label for="subject">Leave a message</label>
-        <textarea id="subject" name="Subject" placeholder="Write something..." style="height:150px"></textarea>
+        <textarea id="message" name="body" placeholder="Write something..." style="height:150px"></textarea>
 
 <div style="text-align:center;">
         <input type="submit" value="Submit">
+        <div class="status"></div>
       </div>
 
 </form>
@@ -99,16 +105,17 @@
 
 
 <!-- Footer -->
-<footer class="container">
-<div class="row">
-  <div class="col-xs-2 col-md-2 vcenter">
-    <img src="Images/EWB_logo_final.png" alt="EWB" style="width:50%" class="img-responsive">
-  </div>
-  <div class="col-xs-6 col-md-6 vcenter">
-    <span>Engineers without Borders Oxford</span>
-  </div>
-</div>
+<footer class="info">
+      <img src="Images/email header smaller.png" alt="EWB" style="width:50%" class="img-responsive center-block">
+  <!-- <div class="row"> -->
+    <!-- <div class="col-xs-2 col-md-2 vcenter"> -->
+      <!-- <img src="Images/EWB_logo_final.png" alt="EWB" style="width:50%" class="img-responsive"> -->
+    <!-- </div> -->
+    <!-- <div class="col-xs-6 col-md-6 vcenter"> -->
+      <!-- <span>Engineers without Borders Oxford</span> -->
+    <!-- </div> -->
+  <!-- </div> -->
 </footer>
-
+<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
