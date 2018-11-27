@@ -37,6 +37,10 @@ body {
 
 /* Hanna's additions begin */
 
+.pagefont {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .parallax1 {
     /* Set a specific height */
     min-height: 500px;
