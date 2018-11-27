@@ -34,3 +34,60 @@ body {
   vertical-align: middle;
   float: none;
 }
+
+/* Hanna's additions begin */
+
+.pagefont {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.parallax1 {
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+
+
+    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2)), url("../Images/launch_event.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    text-align: center;
+    color: #fff;
+    height: 450px;
+    padding-top: 60px;
+}
+
+.info {
+  background: #FFFAF0;
+  color: #777;
+  padding: 3em 20%;
+
+}
+
+.bright_titles {
+  color: #3b8cd9;
+  line-height: 1.3em;
+}
+
+.small_title {
+  line-height: 1.7em;
+}
+
+.parallax2 {
+    /* The image used */
+    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2)), url("../Images/ewbox.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    text-align: center;
+    color: #fff;
+    height: 450px;
+    padding-top: 60px;
+
+}
+
+
+    /* Hanna's additions end */
