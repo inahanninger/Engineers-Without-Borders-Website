@@ -1,32 +1,21 @@
 <!DOCTYPE html>
 <html>
-<style>
-body {
-  text-align: center;
-  font-family: helvetica;
-}
-.mona{
-    margin: 40px 0px 0px 0px;
-    border: 7px solid white;
-    border-radius: 20px;
-  }
-  small {
-        font-size: 80px;
-        color: blue;
-        font-family; Arial;
-    }
-</style>
+<head>
   <title>Team</title>
-  <link href='css/bootstrap.css' rel='stylesheet'>
-  <link href='css/stylesheet.css' rel='stylesheet'>'
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link href='css/bootstrap.css' rel='stylesheet'>
+  <link href='css/bootstrap.min.css' rel='stylesheet'>
+  <link href='css/bootstrap-theme.css' rel='stylesheet'>
+  <link href='css/bootstrap-theme.min.css' rel='stylesheet'>
+  <link href='css/stylesheet.css' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <script type="text/javascript" src="myscripts.js"></script>
 
 </head>
 <title>Team</title>
 
-<body>
+<body class="pagefont">
 <!-- Navbar (sit on top) -->
 <div class="Navbar">
 
@@ -44,11 +33,14 @@ body {
 
 </div>
 <!-- team header-->
-<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
-  <img class="w3-image" src="Images/launch_event.jpg" alt="Engineers" width="1500" height="400">
-  <div class="w3-display-middle w3-margin-top w3-center">
-    <img class="logo" src="Images/EWB_logo_final.png" alt="EWB" width="170" height="200" align=center>
-    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>Who are we?</span> <span class="w3-hide-small w3-text-light-grey"></span></h1>
+<header style="max-width:1500px;" id="home">
+
+<div class="parallax1">
+      <div class="row text-center">
+      <img src="Images/EWB_logo_final.png" alt="EWB" width="170" height="200" align=center class="logo">
+      <br></br>
+      <h1><span><b>Team</b></span>
+    </div>
   </div>
 </header>
 
@@ -62,7 +54,7 @@ body {
 <div class="col-lg-3 col-md-3 col-xs-12">
       <div>
         <img class="mona" src="Images/Old Website/Melissa McCoy.jpg" alt="Medical engineers" style="width:80%">
-        <p>Melissa organizes events for the team. She is a DPhil student at the Uiversity of Oxford.</p>
+        <p>Melissa organizes events for the team. She is a DPhil student at the Uiversity of Oxford</p>
         <small><b><u>mccoy.ewb.com</b></u></small>
 
       </div>
@@ -91,23 +83,23 @@ body {
     </div>
 
     </div>
+  </div>
 
   <!-- End page content -->
   </div>
 
 
   <!-- Footer -->
-  <footer class="info">
-        <img src="Images/email header smaller.png" alt="EWB" style="width:50%" class="img-responsive center-block">
-    <!-- <div class="row"> -->
-      <!-- <div class="col-xs-2 col-md-2 vcenter"> -->
-        <!-- <img src="Images/EWB_logo_final.png" alt="EWB" style="width:50%" class="img-responsive"> -->
-      <!-- </div> -->
-      <!-- <div class="col-xs-6 col-md-6 vcenter"> -->
-        <!-- <span>Engineers without Borders Oxford</span> -->
-      <!-- </div> -->
-    <!-- </div> -->
+  <footer class="container">
+  <div class="row">
+    <div class="col-xs-2 col-md-2 vcenter">
+      <img src="Images/EWB_logo_final.png" alt="EWB" style="width:50%" class="img-responsive">
+    </div>
+    <div class="col-xs-6 col-md-6 vcenter">
+      <span>Engineers without Borders Oxford</span>
+    </div>
+  </div>
   </footer>
-
+  <script type="text/javascript" src="script.js"></script>
   </body>
   </html>
